@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <script type="text/javascript" src="./resources/javascript/main.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
+    <title>Topical Crate</title>
+  </head>
+  <body>
+
+<!-- Header -->
+    <header id="header">
+      <nav>
+        <div class="logo">
+          <img src="resources/images/logo.png" alt="Logo">
+          <span>topical crate</span>
+        </div>
+        <div class="menu">
+          <ul class="lato">
+            <li onclick="openPage('home')" class="tab"><a href="#home" id="defaultOpen">home</a></li>
+            <div class="dropdown">
+              <button class="dropbtn">SHOP
+                <i class="fas fa-angle-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="" target="_blank">shop topical crate</a>
+                <a href="https://www.etsy.com/ca/shop/topicalcrate" target="_blank">shop on etsy</a>
+                <a href="" target="_blank">gift card</a>
+              </div>
+            </div>
+            <li onclick="openPage('about')"class="tab"><a href="#about">about</a></li>
+            <li onclick="openPage('contact')"class="tab"><a href="#contact">contact</a></li>
+          </ul>
+        </div>
+
+        <a href="javascript:void(0)" class="open" style="font-size: 2rem"onclick="openNav()">&#9776;</a>
+
+      </nav>
+    </header>
+
+    <div class="mobile-overlay" id="mobile">
+      <div class="overlay-content mobile-overlay-main">
+        <ul class="lato">
+          <li onclick="openPage('home')" class="tab"><a href="#home"onclick="closeNav()" id="defaultOpen">HOME</a></li>
+          <li><button class="dropbtn" onclick="openShop()">SHOP
+            <i class="fas fa-angle-double-right"></i>
+          </button></li>
+          <div class="o" id="mobileShop">
+            <div class="overlay-content">
+              <a class="backbtn" style="border-bottom:none;color:black;font-size:0.7rem;" onclick="closeShop()">
+                <i class="fas fa-angle-double-left"></i>
+                BACK
+              </a>
+              <ul class="lato">
+                <li><a href="" target="_blank">SHOP TOPICAL CRATE</a></li>
+                <li><a href="https://www.etsy.com/ca/shop/topicalcrate" target="_blank">SHOP ON ETSY</a></li>
+                <li><a href="" target="_blank">GIFT CARD</a></li>
+              </ul>
+            </div>
+          </div>
+          <li onclick="openPage('about')" class="tab"><a href="#about"onclick="closeNav()">ABOUT</a></li>
+          <li onclick="openPage('contact')"class="tab"><a href="#contact"onclick="closeNav()">CONTACT</a></li>
+        </ul>
+      </div>
+      <button class="mobile-overlay-close"><a href="javascript:void(0)" style="border-bottom:none;font-size:2.5rem;color:black" onclick="closeNav()">&times;</a></button>
+    </div>
+
+<!-- Banner
+
+    <div class="banner">
+      <span class="lato">Buy 2 items and receive 15% off - Use the code</span>
+      <span class="lato special">COMBO15</span>
+    </div> -->
+
+
+    <!-- Jumbotron -->
+      <div class="page" id="home">
+        <div class="jumbotron">
+          <img src="" alt="">
+          <div class="inside">
+            <div class="text-content">
+              <span class="title">apparel to raise awareness to current events</span>
+              <p class="lato">Topical Crate donates 10% of profits to the according cause.</p>
+              <div class="btn"><a href="" target="_blank">Shop the Collection</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery -->
+
+      <div class="gallery">
+        <i class="fab fa-instagram fa-3x"></i>
+        <div class="insta background"></div>
+        <span class="subtitle">follow our journey on <a href="https://www.instagram.com/topicalcrate">@topicalcrate</a></span>
+      </div>
+
+<!-- Code -->
+
+      <div class="info code">
+        <span class="title"></span>
+        <img src="" alt="" class="vector">
+        <div class="subject">
+          <img src="" alt="code">
+          <p></p>
+        </div>
+      </div>
+
+<!-- Advantages -->
+
+      <div class="info advantage">
+        <span class="title">Why shop here</span>
+        <div class="advantage-box subject">
+          <div class="advantage-content">
+            <div class="text-content">
+              <span>SUPPORT</span>
+              <p></p>
+            </div>
+          </div>
+          <div class="advantage-content">
+            <div class="text-content">
+              <span>TIME & EFFORT</span>
+              <p></p>
+            </div>
+          </div>
+          <div class="advantage-content">
+            <div class="text-content">
+              <span>CUSTOMER CARE</span>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="strip">
+        <i class="fas fa-dolly-flatbed fa-2x"></i>
+        <div class="text-content">
+          <span>free shipping over $50 in Canada and North America</span>
+        </div>
+          <i class="fas fa-shipping-fast fa-2x"></i>
+      </div>
+
+      <footer>
+        <p>©2020 BY TOPICAL CRATE</p>
+      </footer>
+
+      </div>
+
+
+<!-- About -->
+
+    <div class="page" id="about">
+      <div class="info">
+        <span class="title">About Topical Crate</span>
+        <img class="subject" src="" alt="market set up">
+      </div>
+
+      <div class="section">
+        <div class="detail">
+          <div>
+            <div class="text-content">
+              <span class="highlight subtitle"></span>
+              <span>Topical Crate </span>
+            </div>
+          </div>
+
+          <div>
+            <div class="text-content">
+              <span class="highlight subtitle">Mission</span>
+              <span></span>
+            </div>
+          </div>
+
+          <div>
+            <div class="text-content">
+              <span class="highlight subtitle">Process</span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="vid">
+          <video controls muted src="" autoplay poster="posterimage.jpg">Your browser does not support the video.</video>
+        </div>
+      </div>
+      <footer>
+  <p>©2020 BY TOPICAL CRATE</p>
+</footer>
+    </div>
+
+    <!-- Contact -->
+        <div class="page "id="contact">
+
+          <div class="info">
+            <span class="title">Get in Touch</span>
+            <img class="subject" src="" alt="">
+          </div>
+
+        <footer>
+          <p>©2020 BY TOPICAL CRATE</p>
+        </footer>
+      </div>
+
+
+
+  </body>
+</html>

@@ -478,7 +478,7 @@ header img {
   }
   .gallery a:hover {
     text-decoration: none;
-    color: #0a5c8f;
+    color: #ececec;
     transition: 0.3s;
   }
 
@@ -553,9 +553,10 @@ header img {
   }
 
   #home .info img {
-    height: 30rem;
+    width: 40rem;
     margin-top: 3rem;
-    width: auto;
+    height: auto;
+    filter: grayscale(100%);
   }
 
   #home .info .vector {
@@ -570,7 +571,6 @@ header img {
     border: none;
   }
   #home .subject {
-    border: 3px solid #0a5c8f;
     display: flex;
   }
 
@@ -588,7 +588,6 @@ header img {
     .code .title, .advantage .title {
     font-size: 5rem;
     position: absolute;
-    background-color: #c4d4e7;
   }
 
   @media only screen and (min-width: 300px) and (max-width: 900px) {
@@ -666,7 +665,6 @@ header img {
   .advantage-box {
     display: flex;
     margin-top: 7rem;
-    border: 3px solid #e1afb4;
     padding: 0;
   }
   .advantage-content span {
@@ -722,9 +720,8 @@ header img {
   /* Stip */
 
   .strip {
-    background-color: #c4d4e7;
     height: 7rem;
-    color: white;
+    color: black;
     font-size: 1.5rem;
     text-align: center;
     line-height: 3rem;

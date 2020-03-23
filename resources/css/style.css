@@ -193,7 +193,7 @@ header img {
   }
   .logo {
     padding-left: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     letter-spacing: 1rem;
   }
   .logo img {
@@ -349,19 +349,17 @@ header img {
   margin: 0;
   background-size: cover;
   padding-top: 112px;
+  background-blend-mode: luminosity;
+}
+.parallax {
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: luminosity;
 }
 
 .jumbotron p {
   font-size: 1.3rem;
-}
-
-#home .jumbotron img {
-  display: none;
 }
 
 .jumbotron .title {
@@ -449,58 +447,6 @@ header img {
     height: 40rem;
   }
 
-}
-
-/* Gallery */
-
-  .gallery {
-    display: flex;
-    justify-content: center;
-    margin: 3rem;
-    align-items: center;
-    position: relative;
-  }
-
-  .gallery span {
-    padding: 2rem;
-    font-weight: bold;
-  }
-  .gallery a:hover {
-    text-decoration: none;
-    color: #ececec;
-    transition: 0.3s;
-  }
-
-  .insta {
-    background-image: url("");
-  }
-  .background {
-    background-size: 100%;
-    background-position: center;
-    opacity: 0.3;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-
-@media only screen and (min-width: 300px) and (max-width: 768px) {
-  .gallery span {
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 0;
-  }
-  .gallery {
-    margin: 0;
-    height: 12rem;
-  }
-  .gallery i {
-    display: none;
-  }
 }
 
 /* info/code */
@@ -776,6 +722,58 @@ header img {
       padding: 0;
     }
   }
+  /* Gallery */
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      margin: 3rem;
+      align-items: center;
+      position: relative;
+    }
+
+    .gallery span {
+      padding: 2rem;
+      font-weight: bold;
+    }
+    .gallery a:hover {
+      text-decoration: none;
+      color: #ececec;
+      transition: 0.3s;
+    }
+
+    .insta {
+      background-image: url("");
+    }
+    .background {
+      background-size: 100%;
+      background-position: center;
+      opacity: 0.3;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+  @media only screen and (min-width: 300px) and (max-width: 768px) {
+    .gallery span {
+      font-size: 1.5rem;
+      text-align: center;
+      padding: 0;
+    }
+    .gallery {
+      margin: 0;
+      height: 12rem;
+    }
+    .gallery i {
+      display: none;
+    }
+  }
+
 
   /* About */
 

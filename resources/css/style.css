@@ -779,15 +779,17 @@ header img {
     .section {
       padding: 0;
       display: block;
-    }
+    }/*
     .vid video {
       width: 100%
-    }
+    }*/
     .vid {
       display: flex;
       width: 60%;
       margin: auto;
       padding-bottom: 2rem;
+    }
+    .vid img {
       object-position: top;
     }
     .colour-box-small {

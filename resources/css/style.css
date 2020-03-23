@@ -16,7 +16,7 @@
 } @@font-face {
   font-family: 'Apple Ligothic';
   font-style: normal;
-  src: url(../fonts/AppleLigothicMedium.ttf), format('truetype');
+  src: url("../fonts/AppleLigothicMedium.ttf"), format('truetype');
 }
 /* Universal */
 

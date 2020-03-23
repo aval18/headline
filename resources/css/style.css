@@ -44,7 +44,7 @@ html {
 }
 
 body {
-  font-family: 'Apple Ligothic';
+  font-family: 'Apple Ligothic', 'Roboto';
   height: 100%;
 }
 
@@ -143,7 +143,7 @@ header img {
 
 .logo {
   padding-left: 15rem;
-  font-family: 'League Spartan';
+  font-family: 'League Spartan', 'Apple Ligothic', 'Roboto';
   letter-spacing: 1.5rem;
   font-size: 2rem;
   font-weight: bold;
@@ -524,7 +524,7 @@ header img {
   }
 
   .info .title {
-    font-family: 'Apple Ligothic';
+    font-family: 'Apple Ligothic', 'Roboto';
     font-weight: bold;
     letter-spacing: 0.8rem;
     padding: 1.5rem;

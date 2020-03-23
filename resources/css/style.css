@@ -730,6 +730,7 @@ header img {
       margin: 3rem;
       align-items: center;
       position: relative;
+      background-color: wheat;
     }
 
     .gallery span {

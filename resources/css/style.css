@@ -791,6 +791,7 @@ header img {
     }
     .vid img {
       object-position: top;
+      height: auto;
     }
     .colour-box-small {
       width: 6rem;

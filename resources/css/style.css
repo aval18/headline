@@ -18,6 +18,11 @@
   src: url('../fonts/AppleLiGothicMedium.ttf') format('truetype');
   font-style: normal;
   font-weight: normal;
+} @@font-face {
+  font-family: 'League Spartan';
+  src: url('../fonts/league-spartan/League-Spartan-Bold.otf') format('opentype');
+  font-style: normal;
+  font-weight: bold;
 }
 /* Universal */
 
@@ -90,7 +95,6 @@ header {
   top: 0;
   padding: 1rem;
   transition: 0.2s;
-  font-size: 3rem;
 }
 
 .menu a:hover {
@@ -126,7 +130,10 @@ header img {
 
 .logo {
   padding-left: 15rem;
-  font-family: 'Apple Ligothic';
+  font-family: 'League Spartan';
+  letter-spacing: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .menu {
@@ -172,12 +179,11 @@ header img {
   }
   .logo {
     padding-left: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 1rem;
   }
   .logo img {
     width: 3rem;
-  }
-  .logo span {
-    font-size: 2rem;
   }
   .open {
     display: block;
@@ -549,7 +555,7 @@ header img {
     position: absolute;
     right: 20%;
     width: 40%;
-    height: 45%;
+    height: 22rem;
     margin-top: 15rem;
   }
   .colour-box-text {
@@ -618,7 +624,7 @@ header img {
       width: 70%;
       height: auto;
       padding: 0;
-      top: 110%;
+      margin-top: 10rem;
       z-index: 1;
     }
     .colour-box-text {
@@ -759,11 +765,12 @@ header img {
 
   .colour-box-small {
     background-color: wheat;
-    width: 5rem;
+    width: 8rem;
     height: 2rem;
     position: absolute;
     z-index: -1;
-    left: 8%
+    margin-left: 2rem;
+    margin-top: 0.5rem;
   }
 
 
@@ -797,6 +804,8 @@ header img {
     }
     .colour-box-small {
       width: 6rem;
+      margin: 0;
+      margin-left: 1rem;
     }
 
   }

@@ -13,12 +13,12 @@
   font-display: swap;
   src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-} @@font-face {
+} @font-face {
   font-family: 'Apple Ligothic';
   src: local('Apple Ligothic Medium'), local('AppleLigothic-Medium'),url('../fonts/AppleLiGothicMedium.ttf') format('truetype');
   font-style: normal;
   font-weight: normal;
-} @@font-face {
+} @font-face {
   font-family: 'League Spartan';
   src: local('League Spartan'), local('LeagueSpartan-Bold'), url('../fonts/league-spartan/LeagueSpartan-Bold.otf') format('opentype');
   font-style: normal;
@@ -96,6 +96,7 @@ button {
   background-color: none;
   border: none;
 }
+
 
 
 /* Header */
@@ -363,10 +364,6 @@ header img {
   display: none;
 }
 
-.parallax {
-
-}
-
 .jumbotron .title {
   font-family: 'Lato';
   font-size: 3rem;
@@ -440,6 +437,16 @@ header img {
     margin-top: 3rem;
     object-fit: cover;
     filter: grayscale(100%);
+  }
+
+}
+
+@media only screen and (min-width: 1500px) {
+  html {
+    font-size: 20px;
+  }
+  .inside {
+    height: 40rem;
   }
 
 }
@@ -645,6 +652,32 @@ header img {
       margin: 1rem;
     }
   }
+  @media only screen and (min-width: 1500px) {
+    .info, {
+      max-width: 1800px;
+    }
+    #home .info img {
+      width: 65%;
+      height: 38rem;
+    }
+    .code .subject {
+      margin: 0;
+    }
+    .colour-box {
+      height: 30rem;
+    }
+    .code .title {
+      right: 8;
+      font-size: 6rem;
+    }
+    .colour-box {
+     right: 12%;
+    }
+    .code p {
+      margin-left: 16rem;
+      font-size: 2rem;
+    }
+  }
 
 
 /* Advantages */
@@ -706,14 +739,12 @@ header img {
   }
     @media only screen and (min-width: 1500px) {
 
-      .code .title {
-        right: auto;
-      }
       .advantage .title {
         left: 20%;
       }
-      html {
-        font-size: 16px;
+      .advantage-content .text-content {
+        padding: 3rem;
+        padding-top: 5rem;
       }
     }
 
@@ -821,6 +852,11 @@ header img {
       margin-left: 1rem;
     }
 
+  }
+  @media only screen and (min-width: 1500px) {
+    .section {
+      max-width: 1800px;
+    }
   }
 
 

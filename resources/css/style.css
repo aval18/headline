@@ -20,7 +20,7 @@
   font-weight: normal;
 } @@font-face {
   font-family: 'League Spartan';
-  src: url('../fonts/league-spartan/League-Spartan-Bold.otf') format('opentype');
+  src: url('../fonts/league-spartan/LeagueSpartan-Bold.otf') format('opentype');
   font-style: normal;
   font-weight: bold;
 }
@@ -85,6 +85,7 @@ button {
   border: none;
 }
 
+
 /* Header */
 
 header {
@@ -130,10 +131,9 @@ header img {
 
 .logo {
   padding-left: 15rem;
-  font-family: 'League Spartan';
+  font-family: 'Apple Ligothic';
   letter-spacing: 1.5rem;
   font-size: 2rem;
-  font-weight: bold;
 }
 
 .menu {

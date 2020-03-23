@@ -34,4 +34,6 @@ function openPage(pageName) {
 
 document.getElementById("defaultOpen").click();
 
-// Thanks Message
+// Scroll
+
+scrollTo("defaultOpen");

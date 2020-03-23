@@ -21,27 +21,26 @@
       <nav>
         <div class="logo">
           <img src="resources/images/logo.png" alt="Logo">
-          <span>Headline</span>
+          <span onclick="openPage('home')" class="tab"><a href="#home" id="defaultOpen">Headline</a></span>
         </div>
         <div class="menu">
           <ul class="lato">
-            <li onclick="openPage('home')" class="tab"><a href="#home" id="defaultOpen">home</a></li>
             <div class="dropdown">
               <button class="dropbtn">SHOP
                 <i class="fas fa-angle-down"></i>
               </button>
               <div class="dropdown-content">
-                <a href="" target="_blank">shop headline</a>
+                <a href="https://headlinebrand.square.site/" target="_blank">shop headline</a>
                 <a href="https://www.etsy.com/ca/shop/headlinebrand" target="_blank">shop on etsy</a>
-                <a href="" target="_blank">gift card</a>
+                <a href="https://squareup.com/gift/HXFDZH11RKV84/order" target="_blank">gift card</a>
               </div>
             </div>
-            <li onclick="openPage('about')"class="tab"><a href="#about">about</a></li>
-            <li onclick="openPage('contact')"class="tab"><a href="#contact">contact</a></li>
+            <li onclick="openPage('about')" class="tab"><a href="#about">about</a></li>
+            <li onclick="openPage('contact')" class="tab"><a href="#contact">contact</a></li>
           </ul>
         </div>
 
-        <a href="javascript:void(0)" class="open" style="font-size: 2rem"onclick="openNav()">&#9776;</a>
+        <a href="javascript:void(0)" class="open" style="font-size: 2rem" onclick="openNav()">&#9776;</a>
 
       </nav>
     </header>
@@ -49,7 +48,6 @@
     <div class="mobile-overlay" id="mobile">
       <div class="overlay-content mobile-overlay-main">
         <ul class="lato">
-          <li onclick="openPage('home')" class="tab"><a href="#home"onclick="closeNav()" id="defaultOpen">HOME</a></li>
           <li><button class="dropbtn" onclick="openShop()">SHOP
             <i class="fas fa-angle-double-right"></i>
           </button></li>
@@ -60,14 +58,14 @@
                 BACK
               </a>
               <ul class="lato">
-                <li><a href="" target="_blank">SHOP HEADLINE</a></li>
-                <li><a href="https://www.etsy.com/ca/shop/topicalcrate" target="_blank">SHOP ON ETSY</a></li>
-                <li><a href="" target="_blank">GIFT CARD</a></li>
+                <li><a href="https://headlinebrand.square.site/" target="_blank">SHOP HEADLINE</a></li>
+                <li><a href="https://www.etsy.com/ca/shop/headlinebrand" target="_blank">SHOP ON ETSY</a></li>
+                <li><a href="https://squareup.com/gift/HXFDZH11RKV84/order" target="_blank">GIFT CARD</a></li>
               </ul>
             </div>
           </div>
-          <li onclick="openPage('about')" class="tab"><a href="#about"onclick="closeNav()">ABOUT</a></li>
-          <li onclick="openPage('contact')"class="tab"><a href="#contact"onclick="closeNav()">CONTACT</a></li>
+          <li onclick="openPage('about')" class="tab"><a href="#about" onclick="closeNav()">ABOUT</a></li>
+          <li onclick="openPage('contact')"class="tab"><a href="#contact" onclick="closeNav()">CONTACT</a></li>
         </ul>
       </div>
       <button class="mobile-overlay-close"><a href="javascript:void(0)" style="border-bottom:none;font-size:2.5rem;color:black" onclick="closeNav()">&times;</a></button>
@@ -89,7 +87,7 @@
             <div class="text-content">
               <span class="title">apparel to raise awareness to current events</span>
               <p class="lato">Headline donates 10% of profits to the according cause.</p>
-              <div class="btn"><a href="" target="_blank">Shop the Collection</a></div>
+              <div class="btn"><a href="https://headlinebrand.square.site/" target="_blank">Shop the Collection</a></div>
             </div>
           </div>
         </div>
@@ -99,17 +97,20 @@
       <div class="gallery">
         <i class="fab fa-instagram fa-3x"></i>
         <div class="insta background"></div>
-        <span class="subtitle">follow our journey on <a href="https://www.instagram.com/topicalcrate">@topicalcrate</a></span>
+        <span class="subtitle">follow our journey on <a href="https://www.instagram.com/headlineclothes">@headlineclothes</a></span>
       </div>
 
 <!-- Code -->
 
       <div class="info code">
         <span class="title">Raising Awareness</span>
-        <img src="" alt="" class="vector">
         <div class="subject">
           <img src="./resources/images/quaranteen-shirt-1.jpg" alt="quaranteen shirt">
-          <p></p>
+          <div class="colour-box">
+            <div class="colour-box-text">
+              <p>10% of profits are donated towards the specific cause according to the design. Check the item description for the foundation.</p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -121,19 +122,19 @@
           <div class="advantage-content">
             <div class="text-content">
               <span>SUPPORT</span>
-              <p></p>
+              <p>Headline is proud to announce that we donate to multiple causes based on current issues worldwide. Help support and raise awareness. Also, support a youth entrepreneur learning the ropes of business.</p>
             </div>
           </div>
           <div class="advantage-content">
             <div class="text-content">
               <span>TIME & EFFORT</span>
-              <p></p>
+              <p>Each item is carefully and individually made with an original design. Each one is crafted with precision, ensuring a high quality item!</p>
             </div>
           </div>
           <div class="advantage-content">
             <div class="text-content">
               <span>CUSTOMER CARE</span>
-              <p></p>
+              <p>Our customers are our priority. We want to make sure your time is well spent, so if you have any questions, please do not hesitate to reach out.</p>
             </div>
           </div>
         </div>
@@ -142,7 +143,7 @@
       <div class="strip">
         <i class="fas fa-dolly-flatbed fa-2x"></i>
         <div class="text-content">
-          <span>free shipping over $50 in Canada and North America</span>
+          <span>free shipping over $50 in Canada and US</span>
         </div>
           <i class="fas fa-shipping-fast fa-2x"></i>
       </div>
@@ -158,36 +159,40 @@
 
     <div class="page" id="about">
       <div class="info">
-        <span class="title">About Headline</span>
-        <img class="subject" src="" alt="">
+        <span class="title">About</span>
+      <!--  <img class="subject" src="" alt="">-->
       </div>
 
       <div class="section">
         <div class="detail">
           <div>
             <div class="text-content">
-              <span class="highlight subtitle"></span>
-              <span>Headline </span>
+              <div class="colour-box-small"></div>
+              <span class="highlight subtitle">Story</span>
+              <span class="lato">Headline was created in March 2020 by a youth entrepreneur who wanted to donate and fundraise money to pressing global issues. The first release of the "quaranteen" shirt was the start of the brand, with profits donated to WHO Covid-19 in order to support hospitals and prevent the spread of the virus. She is a passionate entrepreneur, and additionally coded this website herself.</span>
             </div>
           </div>
 
           <div>
             <div class="text-content">
+              <div class="colour-box-small"></div>
               <span class="highlight subtitle">Mission</span>
-              <span></span>
+              <span class="lato">Headline donates 10% of profits to the according cause based on the design (specific foundation can be checked in the item description), while the rest of the profits go right back into the company - making more designs and inventory to donate even more.</span>
             </div>
           </div>
 
           <div>
             <div class="text-content">
+              <div class="colour-box-small"></div>
               <span class="highlight subtitle">Process</span>
-              <span></span>
+              <span class="lato">Each item is individually pressed and crafted with care. The design is first sketched out and digitized, then it gets cut into vinyl. Afterwards, the vinyl is pressed on the shirt for high quality results.</span>
             </div>
           </div>
         </div>
 
         <div class="vid">
-          <video controls muted src="" autoplay poster="posterimage.jpg">Your browser does not support the video.</video>
+          <!--<video controls muted src="" autoplay poster="posterimage.jpg">Your browser does not support the video.</video>-->
+          <img src="./resources/images/quaranteen-shirt-4.jpg" alt="Quaranteen shirt" style="filter: grayscale(100%)">
         </div>
       </div>
       <footer>
@@ -200,8 +205,9 @@
 
           <div class="info">
             <span class="title">Get in Touch</span>
-            <img class="subject" src="" alt="">
+            <!--<img class="subject" src="" alt="">-->
           </div>
+          <div class="typeform-widget" data-url="https://headlineclothes.typeform.com/to/maGRy1" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=maGRy1&utm_source=typeform.com-01E426SJKGD9W8Z619KN65RXN8-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
 
         <footer>
           <p>©2020 BY HEADLINE</p>

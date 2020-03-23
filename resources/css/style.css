@@ -506,8 +506,8 @@ header img {
     margin-left: 10rem;
   }
   .code .title {
-    right: 4%;
-    margin-top: 5rem;
+    right: 5%;
+    margin-top: 4rem;
     color: wheat;
     z-index: 2;
 }
@@ -599,7 +599,7 @@ header img {
     }
   }
   @media only screen and (min-width: 1500px) {
-    .info, {
+    .info {
       max-width: 1800px;
     }
     #home .info img {
@@ -613,8 +613,9 @@ header img {
       height: 30rem;
     }
     .code .title {
-      right: 8;
+      right: 7%;
       font-size: 6rem;
+      margin-top: 3rem;
     }
     .colour-box {
      right: 12%;

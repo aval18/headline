@@ -37,3 +37,6 @@ document.getElementById("defaultOpen").click();
 // Scroll
 
 scrollTo("defaultOpen");
+
+// GSAP Animaition
+TweenMax.to(".logo", 1.5,{display:block})

@@ -44,7 +44,7 @@ html {
 }
 
 body {
-  font-family: 'Apple Ligothic', 'Roboto';
+  font-family: 'Apple Ligothic', 'Lato';
   height: 100%;
 }
 
@@ -481,7 +481,7 @@ nav li {
   }
 
   .info .title {
-    font-family: 'Apple Ligothic', 'Roboto';
+    font-family: 'Apple Ligothic', 'Lato';
     font-weight: bold;
     letter-spacing: 0.8rem;
     padding: 1.5rem;

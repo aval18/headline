@@ -711,6 +711,7 @@ nav li {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 2rem;
   }
 
   .strip .text-content {
@@ -722,6 +723,7 @@ nav li {
       letter-spacing: 0.1rem;
       line-height: 2rem;
       font-size: 1rem;
+      margin: 2rem;
     }
     .strip .text-content {
       padding: 0;
@@ -888,7 +890,6 @@ nav li {
       bottom: 0;
       width: 95%;
       margin: auto;
-      margin-top: 2rem;
       position: relative;
       border-top: 2px solid black;
       max-width: 2000px;
@@ -918,8 +919,8 @@ nav li {
     }
     footer .colour-box-small {
       width: 6rem;
-      margin-left: 0.8rem;
-      margin-bottom: 0.5rem;
+      margin-left: 1rem;
+      height: 8rem;
     }
     footer a:hover {
       text-decoration: none;

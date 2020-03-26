@@ -619,7 +619,7 @@ nav li {
         z-index: 4;
         top: 0;
         right: 0;
-        background-color: #ececec;
+        background-color: white;
         transition: 0.6s;
       }
       .o {
@@ -645,7 +645,7 @@ nav li {
         font-size: 1rem;
         letter-spacing: 0.3rem;
         padding: 0;
-        background-color: #ececec;
+        background-color: white;
       }
       .mobile-overlay a:hover {
         text-decoration: none;
@@ -657,7 +657,7 @@ nav li {
         padding-right: 1rem;
         left: 0;
         top: 0;
-        background-color: #ececec;
+        background-color: white;
       }
       .backbtn {
         position: absolute;

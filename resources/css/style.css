@@ -335,7 +335,7 @@ nav li {
     width: 40rem;
     margin-top: 3rem;
     height: 30rem;
-    object-position: top;
+    object-position: center;
     filter: grayscale(100%);
     z-index: 1;
   }
@@ -742,7 +742,6 @@ nav li {
       #home .info img {
         height: 15rem;
         width: 20rem;
-        object-position: top;
         margin: 0;
         left: 5%;
         position: absolute;

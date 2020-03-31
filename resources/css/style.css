@@ -484,6 +484,9 @@ nav li {
   .vid {
     width: 100%;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
   }
   .vid img{
     width: 100%;
@@ -745,6 +748,7 @@ nav li {
         margin: 0;
         left: 5%;
         position: absolute;
+        object-position: bottom;
       }
       .info .subject {
         width: 100%;
@@ -841,9 +845,7 @@ nav li {
         width: 100%
       }*/
       .vid {
-        display: flex;
         width: 60%;
-        margin: auto;
         padding-bottom: 2rem;
       }
       .vid img {
@@ -928,7 +930,7 @@ nav li {
       .code .title {
         right: 7%;
         font-size: 5rem;
-        margin-top: 3rem;
+        margin-top: 5rem;
       }
       .colour-box {
        right: 12%;
@@ -959,6 +961,9 @@ nav li {
 
       .section {
         max-width: 1800px;
+      }
+      .vid img {
+        width: 70%;
       }
 
   }

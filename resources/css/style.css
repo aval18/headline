@@ -334,9 +334,9 @@ nav li {
   #home .info img {
     width: 40rem;
     margin-top: 3rem;
+    margin-left: 3rem;
     height: 30rem;
     object-position: center;
-    filter: grayscale(100%);
     z-index: 1;
   }
 
@@ -350,7 +350,7 @@ nav li {
   }
 
   .code p {
-    margin-left: 10rem;
+    margin-left: 8rem;
   }
   .code .title {
     right: 5%;
@@ -367,7 +367,7 @@ nav li {
     background-color: wheat;
     z-index: 0;
     position: absolute;
-    right: 20%;
+    right: 13%;
     width: 40%;
     height: 22rem;
     margin-top: 15rem;
@@ -918,8 +918,9 @@ nav li {
         max-width: 1800px;
       }
       #home .info img {
-        width: 65%;
-        height: 38rem;
+        width: 55%;
+        height: 44rem;
+        padding-bottom: 6rem;
       }
       .code .subject {
         margin: 0;
@@ -928,12 +929,12 @@ nav li {
         height: 30rem;
       }
       .code .title {
-        right: 7%;
+        right: 11%;
         font-size: 5rem;
         margin-top: 5rem;
       }
       .colour-box {
-       right: 12%;
+       right: 15%;
       }
       .code p {
         margin-left: 20rem;

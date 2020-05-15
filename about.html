@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161973355-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-161973355-1');
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
+    <title>About Us | Headline Brand</title>
+    <meta name="description" content="Headline offers unique printed clothing for everyone, along with collections that raise awareness to current events by donating 10% to the according foundation.">
+  </head>
+  <body>
+
+<!-- Header -->
+    <header id="header">
+      <nav>
+        <div class="logo">
+          <img src="resources/images/logo.png" alt="Logo">
+          <span><a href="index.html">HEADLINE</a></span>
+        </div>
+        <div class="menu">
+          <ul>
+            <div class="dropdown">
+              <button class="dropbtn">SHOP
+                <i class="fas fa-angle-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="https://headlinebrand.square.site/" target="_blank">shop headline</a>
+                <a href="https://www.etsy.com/ca/shop/headlinebrand" target="_blank">shop on etsy</a>
+                <a href="https://squareup.com/gift/HXFDZH11RKV84/order" target="_blank">gift card</a>
+              </div>
+            </div>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+        </div>
+
+        <a href="javascript:void(0)" class="open" style="font-size: 2rem" onclick="openNav()">&#9776;</a>
+
+      </nav>
+    </header>
+
+    <div class="mobile-overlay" id="mobile">
+      <div class="overlay-content mobile-overlay-main">
+        <ul>
+          <li><button class="dropbtn" onclick="openShop()">SHOP
+            <i class="fas fa-angle-double-right"></i>
+          </button></li>
+          <div class="o" id="mobileShop">
+            <div class="overlay-content">
+              <a class="backbtn" style="border-bottom:none;color:black;font-size:0.7rem;" onclick="closeShop()">
+                <i class="fas fa-angle-double-left"></i>
+                BACK
+              </a>
+              <ul>
+                <li><a href="https://headlinebrand.square.site/" target="_blank">SHOP HEADLINE</a></li>
+                <li><a href="https://www.etsy.com/ca/shop/headlinebrand" target="_blank">SHOP ON ETSY</a></li>
+                <li><a href="https://squareup.com/gift/HXFDZH11RKV84/order" target="_blank">GIFT CARD</a></li>
+              </ul>
+            </div>
+          </div>
+          <li><a href="about.html" onclick="closeNav()">ABOUT</a></li>
+          <li><a href="contact.html" onclick="closeNav()">CONTACT</a></li>
+        </ul>
+      </div>
+      <button class="mobile-overlay-close"><a href="javascript:void(0)" style="border-bottom:none;font-size:2.5rem;color:black" onclick="closeNav()">&times;</a></button>
+    </div>
+
+    <!-- About -->
+
+        <div id="about">
+          <div class="info">
+            <span class="title">About</span>
+          <!--  <img class="subject" src="" alt="">-->
+          </div>
+
+          <div class="section">
+            <div class="detail">
+              <div>
+                <div class="text-content">
+                  <div class="colour-box-small"></div>
+                  <span class="subtitle">Story</span>
+                  <span>Headline was created in March 2020 by a youth entrepreneur who loves creating designs, and additionally wanted to donate to pressing global issues through certain collections. While selling a variety of fun and unique graphic shirts, Headline also offers collections in which 10% of profits are donated to the according cause, with the first collection being the "quaranteen" designs donating to WHO Covid-19. She is a passionate entrepreneur, and additionally coded this website herself.</span>
+                </div>
+              </div>
+
+              <div>
+                <div class="text-content">
+                  <div class="colour-box-small"></div>
+                  <span class="subtitle">Mission</span>
+                  <span>Headline offers collections which donates 10% of profits to the according cause based on the design (specific foundation can be checked in the item description), while the rest of the profits go right back into the company - making more designs and inventory to donate even more.</span>
+                </div>
+              </div>
+
+              <div>
+                <div class="text-content">
+                  <div class="colour-box-small"></div>
+                  <span class="subtitle">Process</span>
+                  <span>Each item is individually pressed and crafted with care. The design is first sketched out and digitized, then it gets cut into vinyl. Afterwards, the vinyl is pressed on the shirt for high quality results.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="vid">
+              <!--<video controls muted src="" autoplay poster="posterimage.jpg">Your browser does not support the video.</video>-->
+              <img src="./resources/images/together-crew-2.jpg" alt="quaranteen shirt" style="filter: grayscale(100%)">
+            </div>
+          </div>
+          <div>
+            <div class="detail">
+              <div class="text-content">
+                <div class="colour-box-small" style="margin:auto;position:relative"></div>
+                <span class="subtitle">Sustainability</span>
+                <span>We are proudly commited to eco-friendly packaging! With Eco Enclose, our mailers are 100% recycled content!</span>
+                <br>
+                <a href="https://www.ecoenclose.com/?utm_source=newsletter&utm_medium=badge&utm_campaign=sustainable_packaging_badge"> <img src="https://cdn11.bigcommerce.com/s-rd0ndag3a6/product_images/uploaded_images/sustainable-packaging-badge.png?t=1557235534&_ga=2.195289836.1305202860.1557234982-2024517201.1554135985" alt="sustainable packaging" width="150px"/> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  <!-- footer -->
+        <footer>
+          <div class="footer-content">
+            <div class="logo">
+              <img src="resources/images/logo.png" alt="Logo">
+              <span>HEADLINE</span>
+            </div>
+            <div class="footer-section">
+              <div class="footer-box">
+                <div class="colour-box-small"></div>
+                <span>Social</span>
+                <ul>
+                  <li><a href="https://www.instagram.com/headlineclothes" target="_blank">Instagram</a></li>
+                  <li><a href="https://www.facebook.com/pg/headlineclothes/shop" target="_blank">Facebook</a></li>
+                </ul>
+              </div>
+              <div class="footer-box">
+                <div class="colour-box-small"></div>
+                <span>Shop</span>
+                <ul>
+                  <li class="desktop"><a href="https://headlinebrand.square.site" target="_blank">Headline Site</a></li>
+                  <li class="mobile"><a href="https://headlinebrand.square.site" target="_blank">Headline</a></li>
+                  <li><a href="https://www.etsy.com/ca/shop/headlinebrand" target="_blank">Etsy</a></li>
+                  <li><a href="https://squareup.com/gift/HXFDZH11RKV84/order" target="_blank">Gift Card</a></li>
+                </ul>
+              </div>
+              <div class="footer-box">
+                <div class="colour-box-small"></div>
+                <span>Learn</span>
+                <ul>
+                  <li class="desktop"><a href="policies.html">Shipping & Policies</a></li>
+                  <li class="mobile"><a href="policies.html">Shipping/Policies</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Get in Touch</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p>©2020 HEADLINE BRAND</p>
+        </footer>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+        <script src="./resources/javascript/main.js"></script>
+
+      </body>
+    </html>

@@ -72,12 +72,6 @@ ol, ul {
   font-family: 'Apple Ligothic','Roboto';
 }
 
-.page {
-  min-height: 100%;
-  display: none;
-  padding-top: 20px;
-  margin: 0;
-}
 
 a:hover {
   color: inherit;
